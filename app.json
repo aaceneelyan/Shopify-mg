@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "Shopify Notifications",
+    "slug": "shopify-notification-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/shopify-logo.jpg",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/shopify-logo.jpg",
+      "resizeMode": "contain",
+      "backgroundColor": "#95BF47"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.shopify.notifications"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/shopify-logo.jpg",
+        "backgroundColor": "#95BF47"
+      },
+      "package": "com.shopify.notifications"
+    },
+    "web": {
+      "favicon": "./assets/shopify-logo.jpg"
+    },
+    "plugins": [
+      [
+        "expo-notifications",
+        {
+          "icon": "./assets/shopify-logo.jpg",
+          "color": "#95BF47"
+        }
+      ]
+    ]
+  }
+}
